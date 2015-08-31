@@ -29,9 +29,9 @@ turtle.goto(25, -25)
 turtle.penup()
 
 #left-side-top-rectangle
+turtle.left(45)
 turtle.goto(-100, 25)
 turtle.pendown()
-turtle.left(45)
 turtle.goto(-60, 50)
 turtle.penup()
 
@@ -49,33 +49,34 @@ turtle.penup()
 turtle.goto(65, 50)
 
 #right-top-line
-turtle.left(135)
-turtle.right(90)
+turtle.left(45)
 turtle.pendown()
 turtle.goto(65, 5)
 turtle.penup()
-turtle.right(135-90)
 
 #right-bottom-line
+turtle.right(45)
 turtle.pendown()
 turtle.goto(25, -25)
 turtle.penup()
-turtle.left(135+90)
-turtle.right(45)
 turtle.goto(65, 5)
-turtle.left(135)
 
 #midline
+turtle.right(45)
 turtle.pendown()
 turtle.goto(-60, 5)
 
 #back-left-line
+turtle.right(90)
 turtle.goto(-60, 50)
 turtle.penup()
+turtle.left(180)
 turtle.goto(-60, 5)
 
 #last-line
+turtle.right(45)
 turtle.pendown()
 turtle.goto(-100, -25)
 turtle.penup()
+turtle.done()
 
