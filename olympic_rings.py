@@ -1,3 +1,11 @@
+'''
+Author: Jaken Herman
+Description: This program builds olympic rings with center coordinates based on a user-given radius.
+Class: Python
+Professor: Dr. Ji
+Date to turn in: Sep 24, 2015
+'''
+
 import turtle
 
 turtle.speed(3)
@@ -44,12 +52,12 @@ turtle.color('yellow')
 turtle.pd()
 turtle.circle(user_radius)
 turtle.pu()
-turtle.left(90)
+turtle.lt(90)
 turtle.fd(user_radius)
 yellow_coord = turtle.pos()
 turtle.color('black') #for text
 turtle.write(yellow_coord, align='center')
-turtle.right(180)
+turtle.rt(180)
 turtle.fd(user_radius)
 
 #red ring
@@ -81,7 +89,7 @@ turtle.color('green')
 turtle.pd()
 turtle.circle(user_radius)
 turtle.pu()
-turtle.left(90)
+turtle.lt(90)
 turtle.fd(user_radius)
 green_coord = turtle.pos()
 turtle.color('black')

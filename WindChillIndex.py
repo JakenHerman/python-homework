@@ -5,6 +5,8 @@ Description         This program calculates "feels like" temperature
                     based on temperature and wind speed
 Author              Jaken Herman
 Date                September 8, 2015
+Professor           Dr. Ji
+Class               Python
 
 '''
 
