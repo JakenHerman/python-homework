@@ -88,4 +88,4 @@ turtle.color('black')
 turtle.write(green_coord, align='center')
 
 
-turtle.getscreen()._root.mainloop()
+turtle.getscreen()._root.mainloop() #keep window open until close
