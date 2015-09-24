@@ -1,9 +1,8 @@
 '''
-Author: Jaken Herman
-Description: This program builds olympic rings with center coordinates based on a user-given radius.
-Class: Python
-Professor: Dr. Ji
-Date to turn in: Sep 24, 2015
+File name  	OlympicRings.py
+Description	This program uses turtle to draw Olympic Rings.  The radius of the ring is determined by user.
+Author      Jaken Herman
+Date	    Sept. 20, 2015
 '''
 
 import turtle
@@ -30,7 +29,7 @@ turtle.lt(90)
 #blue ring
 turtle.pu()
 turtle.lt(180)
-turtle.fd((user_radius*1.25) + 1)
+turtle.fd((user_radius * 1.25) + 1)
 turtle.rt(90)
 turtle.fd(user_radius)
 turtle.color('blue')
@@ -47,7 +46,7 @@ turtle.fd(user_radius)
 
 #yellow ring
 turtle.rt(135)
-turtle.fd(user_radius/1.25)
+turtle.fd(user_radius / 1.25)
 turtle.color('yellow')
 turtle.pd()
 turtle.circle(user_radius)
@@ -64,7 +63,7 @@ turtle.fd(user_radius)
 turtle.rt(135)
 turtle.pu()
 turtle.goto(0, -user_radius)
-turtle.fd((user_radius*3.25) + 1)
+turtle.fd((user_radius * 3.25) + 1)
 turtle.lt(90)
 turtle.fd(user_radius)
 turtle.color('red')
