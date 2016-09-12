@@ -15,8 +15,7 @@ statement4 = "canvas4.create_oval(18, 25, 110, 85, tags='rect')"
 #''' Statement 1 '''
 #
 
-object_1_name_split = statement1.split(".")
-object_1_name = object_1_name_split[:-1]
+object_1_name = statement1.split(".")[:-1]
 
 shape_1_name = statement1.split("create_", 2)
 shape_1_shave = shape_1_name[1].split("(")
@@ -26,8 +25,7 @@ print(shape_1_shave[0])
 #''' Statement 2 '''
 #
 
-object_2_name_split = statement2.split(".")
-object_2_name = object_2_name_split[:-1]
+object_2_name = statement2.split(".")[:-1]
 
 shape_2_name = statement2.split("create_", 2)
 shape_2_shave = shape_2_name[1].split("(")
